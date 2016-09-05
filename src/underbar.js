@@ -7,6 +7,7 @@
   // seem very useful, but remember it--if a function needs to provide an
   // iterator when the user does not pass one in, this will be handy.
   _.identity = function(val) {
+    return val
   };
 
   /**
@@ -17,7 +18,7 @@
    * of values; in JavaScript, a 'collection' is something that can contain a
    * number of values--either an array or an object.
    *
-   *
+   * 
    * IMPORTANT NOTE!
    * ===========
    *
